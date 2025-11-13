@@ -36,7 +36,8 @@ services:
         ##
         ##  docker compose build zulip
         ZULIP_GIT_URL: https://github.com/zulip/zulip.git
-        ZULIP_GIT_REF: "11.x"
+        ZULIP_GIT_REF: "main"
+    image: zulip/docker-zulip:main
     environment:
       ## See https://github.com/zulip/docker-zulip#configuration for
       ## details on this section and how to discover the many
